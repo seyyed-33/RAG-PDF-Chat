@@ -66,7 +66,7 @@ if uploaded_file is not None:
         with st.spinner("loading answer..."):
             # LLM
             llm = ChatGroq(
-                api_key="###########",
+                api_key=st.secrets["GROQ_API_KEY"],
                 model="openai/gpt-oss-20b",
                 temperature=0,
                 max_tokens=1000,
