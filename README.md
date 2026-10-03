@@ -82,9 +82,9 @@ streamlit run app.py
 · Handling secrets securely
 · Deploying AI applications
 
-🔗 Live Demo
+## 🔗 Live Demo
 
-Coming soon...
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://rag-pdf-chat-lyy3app2azptagyvfoscoxy.streamlit.app)
 
 📝 License
 
