@@ -1,6 +1,10 @@
-# RAG PDF Chat 🤖
+# 🤖 RAG PDF Chat
 
-A RAG-based chatbot that answers questions from any PDF file using **LangChain**, **FAISS**, **HuggingFace Embeddings**, and **Groq API**. Built with **Streamlit**.
+A smart RAG-based chatbot that answers questions from any PDF file. Built with **LangChain**, **FAISS**, **HuggingFace Embeddings**, and **Groq API**.
+
+## 🔗 Live Demo
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://rag-pdf-chat-lyy3app2azptagyvofscoxy.streamlit.app)
 
 ## ✨ Features
 
@@ -11,6 +15,7 @@ A RAG-based chatbot that answers questions from any PDF file using **LangChain**
 - 🎯 Accurate answers based on PDF content
 - 🎨 Clean and simple Streamlit UI
 - 🔒 Secure API key with Streamlit Secrets
+- 🤖 Keep-Alive Bot (GitHub Actions)
 
 ## 🏗️ Architecture
 
@@ -23,7 +28,7 @@ PDF → Chunking → Embeddings → FAISS → Retrieval → Groq LLM → Answer
 ## 🛠️ Technologies Used
 
 | Technology | Purpose |
-|------------|----------|
+|------------|---------|
 | Python | Core language |
 | Streamlit | Web UI |
 | LangChain | RAG framework |
@@ -31,6 +36,7 @@ PDF → Chunking → Embeddings → FAISS → Retrieval → Groq LLM → Answer
 | HuggingFace Embeddings | Multilingual vectors |
 | FAISS | Vector database |
 | PyPDF | PDF reader |
+| GitHub Actions | Keep-Alive Bot |
 
 ## 📋 Requirements
 
@@ -81,10 +87,7 @@ streamlit run app.py
 · Building Streamlit web apps
 · Handling secrets securely
 · Deploying AI applications
-
-## 🔗 Live Demo
-
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://rag-pdf-chat-lyy3app2azptagyvfoscoxy.streamlit.app)
+· Keep-Alive Bot with GitHub Actions
 
 📝 License
 
@@ -96,3 +99,5 @@ Seyyed Saleh Roodbari Zadeh
 
 · GitHub: @seyyed-33
 · Email: salehroodbari@gmail.com
+
+```
